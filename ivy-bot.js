@@ -18,7 +18,9 @@ logger.level = 'debug';
 
 class IvyBot {
 	initialize() {
+		const source = 'https://i.imgur.com/a/lsMW5yN';
 		const photoLinks = ['ivy.jpg','ivy2.jpg','ivy3.jpg'];
+		const imgurPhotos = document.getElementsByTagName('img');
 		client.on('ready', function (evt) {
 			logger.info('Connected');
 			logger.info('Logged in as: ');
@@ -38,7 +40,7 @@ class IvyBot {
 						});
 						client.uploadFile({
 							to: channelID,
-							file: random
+							file: './photos/' + random
 						});
 						break;
 				}
