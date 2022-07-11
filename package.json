@@ -1,0 +1,17 @@
+{
+	"name": "ivy-bot",
+	"version": "1.0.0",
+	"description": "Ivy Bot",
+	"main": "ivy-bot.js",
+	"author": "Mia Coupland",
+	"dependencies": {
+		"@discordjs/builders": "^0.15.0",
+		"@discordjs/rest": "^0.5.0",
+		"discord-api-types": "^0.36.1",
+		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+		"discord.js": "^13.8.1",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6",
+		"winston": "^3.8.1"
+	}
+}
